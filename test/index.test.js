@@ -14,4 +14,10 @@ test("should throw error", async () => {
     }
 })
 
-
+test("should throw 404", async () => {
+    try{
+        await fetch("https://api.disstreamchat.com/twitch/token/fuck")
+    }catch(err){
+        expect(err.message).toBe("Page Not Found")
+    }
+})
