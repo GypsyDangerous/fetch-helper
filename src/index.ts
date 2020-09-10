@@ -28,4 +28,4 @@ const fetch = async (url: string, options?: object) => {
     return responseData
 }
 
-module.exports = fetch
+export = fetch
