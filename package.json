@@ -1,6 +1,6 @@
 {
-  "name": "fetch-helper",
-  "version": "1.0.0",
+  "name": "simple-better-fetch",
+  "version": "1.0.1",
   "description": "wrapper function for node-fetch with error handling",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
