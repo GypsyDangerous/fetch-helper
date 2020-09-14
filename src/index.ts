@@ -1,6 +1,6 @@
 import nodeFetch from "node-fetch"
 // import {RequestInfo, RequestInit} from "@types/node-fetch"
-const fetch = async (url: string, options?: object) => {
+const fetch = async (url: string, options?: any) : Promise<any> => {
     const response = await nodeFetch(url, options)
     const contentType : string | undefined = response.headers.get("content-type")?.split(" ")[0]?.slice(0, -1)
     let responseData
@@ -21,8 +21,8 @@ const fetch = async (url: string, options?: object) => {
             }
         }else{
             errorMessage = response.statusText
-            throw new Error(errorMessage)
         }
+        throw new Error(errorMessage)
     }
 
     return responseData
