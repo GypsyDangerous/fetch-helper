@@ -9,7 +9,8 @@
     "run": "node dist/index.js",
     "start": "npm-run-all build run",
     "build-tests": "npm-run-all build test",
-    "test": "jest"
+    "test": "jest",
+    "release": "npm-rul-all build publish"
   },
   "repository": {
     "type": "git",
