@@ -11,3 +11,6 @@
 </p>
 <br></br>
 <br></br>
+
+## 🤔 Why Fetchio or Node Fetch
+Fetchio makes it easier for you to make http requests by checking the content type and other headers of the response from node fetch. It will then parse the response body for you based on the content specified in the response and handle any errors that could occur.
