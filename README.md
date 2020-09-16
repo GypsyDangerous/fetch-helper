@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/gypsydangerous/twitchio-js"><img src="https://cdn.discordapp.com/attachments/727356806552092675/755850408357920810/method-draw-image_2.svg" alt="logo" height=100/></a></p>
+<p align="center"><a href="https://github.com/gypsydangerous/fetchio-js"><img src="https://cdn.discordapp.com/attachments/727356806552092675/755850408357920810/method-draw-image_2.svg" alt="logo" height=100/></a></p>
 <h1 align="center">Fetchio.js</h1>
 <p align="center">An easy to use Node Fetch wrapper</p>
 
