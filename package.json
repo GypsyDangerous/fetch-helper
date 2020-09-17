@@ -1,6 +1,6 @@
 {
-  "name": "simple-better-fetch",
-  "version": "1.0.8",
+  "name": "fetchio-js",
+  "version": "1.0.1",
   "description": "wrapper function for node-fetch with error handling",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,11 +10,11 @@
     "start": "npm-run-all build run",
     "build-tests": "npm-run-all build test",
     "test": "jest",
-    "release": "npm-rul-all build publish"
+    "release": "npm-run-all build publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GypsyDangerous/fetch-helper.git"
+    "url": "git+https://github.com/GypsyDangerous/fetchio-js.git"
   },
   "keywords": [
     "fetch"
@@ -22,9 +22,9 @@
   "author": "David Snyder",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GypsyDangerous/fetch-helper/issues"
+    "url": "https://github.com/GypsyDangerous/fetchio-js/issues"
   },
-  "homepage": "https://github.com/GypsyDangerous/fetch-helper#readme",
+  "homepage": "https://github.com/GypsyDangerous/fetchio-js#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
